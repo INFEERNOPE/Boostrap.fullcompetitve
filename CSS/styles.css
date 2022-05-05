@@ -63,6 +63,5 @@ body{
     width: 100%;
 }
 .acordeon {
-    display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
