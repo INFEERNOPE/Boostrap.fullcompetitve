@@ -1,0 +1,34 @@
+/*--HEADER/NAV--*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 3);
+    grid-area: header;
+    img {
+        height: 240px;
+        width: 240px;
+        border-radius: 15px;
+    }
+    nav {
+        ul {
+            display: flex;
+            list-style: none;
+            li {
+                margin: 15px;
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                    text-transform: lowercase;
+                    text-shadow: 2px 2px 2px 2px rgba(1, 5, 1, 5);
+                    &:hover {
+                        color: antiquewhite;
+                    }
+                }
+            
+            }
+        }
+    }
+}

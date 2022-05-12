@@ -1,0 +1,49 @@
+/*--MAIN--*/
+.contenedor {
+    align-items: center;
+    width: 100%;
+
+    carrusel {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+.section1 {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 900px;
+        height: 500px;
+        border-radius: 15px;
+    }
+}
+
+.section2 {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 180px;
+        height: 180px;
+        border-radius: 15px;
+    }
+}
+
+.componentes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.juegos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
